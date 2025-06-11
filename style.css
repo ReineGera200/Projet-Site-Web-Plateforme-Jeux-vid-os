@@ -1,0 +1,338 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #0e0e0e;
+  color: #fff;
+}
+
+header {
+  padding: 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .active {
+  border-bottom: 2px solid orange;
+}
+.navbar .logo {
+  font-size: 24px;
+  font-weight: 800;
+  padding-left: 40px;
+}
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 35px;
+  font-weight: 600;
+}
+
+.navbar nav .btn {
+  background-color: #ff7a01;
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 100px;
+  /* margin-top: 40px; */
+  position: relative;
+}
+
+.hero .text {
+  max-width: 700px;
+}
+
+.hero .tag {
+  color: #ff7a01;
+  font-weight: 600;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.hero p {
+  font-weight: 300;
+  margin: 20px 0;
+  padding-bottom: 50px;
+}
+
+.cta {
+  background-color: #ff7a01;
+  margin-left: 8px;
+  margin-right: 40px;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 100px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.hero .controller {
+  max-width: 700px;
+  position: absolute;
+  padding-left: 40%;
+  z-index: -1;
+}
+
+.engines {
+  gap: 50px;
+  position: absolute;
+}
+
+.seee {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 170px;
+}
+
+.trending {
+  padding: 60px 100px;
+  text-align: center;
+}
+
+.services {
+  padding: 60px 100px;
+  text-align: center;
+  padding-left: 300px;
+  justify-items: center;
+  background-image: url(image/montagne.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  /* height: 600px; */
+}
+
+.services h1,
+p {
+  padding-bottom: 30px;
+  width: 800px;
+}
+
+.cards {
+  opacity: 1.5;
+}
+.games,
+.gallery,
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.game,
+.cards .card {
+  border-radius: 10px;
+  padding: 10px;
+  width: 220px;
+  text-align: center;
+}
+
+.game img,
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.game img {
+  padding-bottom: 20px;
+}
+
+.ri-fire-line {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.see-all {
+  margin-top: 20px;
+  display: inline-block;
+  background: #333;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1em;
+  border-radius: 15px;
+  text-decoration: none;
+  border: none;
+}
+.space {
+  padding-top: 50px;
+}
+.highlight {
+  padding: 60px 100px;
+  background: #111;
+  text-align: center;
+  position: relative;
+}
+
+.highlight .feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.highlight .text {
+  max-width: 500px;
+  padding-left: 210px;
+  text-align: left;
+  padding-bottom: 30px;
+}
+.soider {
+  position: relative;
+}
+.point {
+  position: absolute;
+  width: 160px;
+  height: 80px;
+  top: -50px;
+}
+.spider {
+  width: 1200px;
+  border-radius: 10px;
+}
+
+.points {
+  padding-left: 600px;
+}
+
+.projects {
+  justify-content: center;
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.projects p {
+  padding-left: 245px;
+}
+.projects p {
+  padding-top: 15px;
+  border-radius: 10px;
+}
+
+.lolo {
+  padding-left: 170px;
+}
+
+.stay {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(128, 0, 0, 0.189);
+  width: 1100px;
+  border-radius: 15px;
+  padding-right: 70px;
+  padding-left: 35px;
+  margin-left: 160px;
+}
+
+.newsletter input[type="email"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  border: none;
+  background: #ff7a01;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+footer {
+  background: #0d0d0d;
+  padding: 60px 60px 30px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 180px;
+}
+
+footer .logo {
+  font-weight: 800;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-col h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin: 5px 0;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 13px;
+}
+
+footer p {
+  font-size: 13px;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 94px;
+}
+
+.socials a img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+footer .right {
+  margin-top: 40px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  text-align: center;
+  margin-left: 56px;
+}
+
+footer .right p {
+  font-size: 12px;
+  margin-left: 146px;
+  color: #aaa;
+}

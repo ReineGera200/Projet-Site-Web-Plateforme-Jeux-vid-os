@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #0f0f0f;
+}
+
+.navbar .logo {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.navbar nav a {
+  margin-left: 30px;
+  font-weight: 300;
+}
+
+.navbar .btn {
+  background: orange;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.navbar .active {
+  border-bottom: 2px solid orange;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 60px;
+  background: #141414;
+}
+
+.hero-text {
+  width: 50%;
+  padding-left: 80px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.hero-text p {
+  margin: 15px 0;
+  font-size: 15px;
+}
+
+.hero span {
+  color: orangered;
+  font-weight: 600;
+}
+
+.cta {
+  display: inline-block;
+  background: orange;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.hero-image img {
+  max-width: 580px;
+  padding-left: 200px;
+}
+
+.why {
+  padding: 80px 60px;
+  gap: 50px;
+}
+
+.why h2 {
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.card {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  width: 270px;
+}
+
+.card .tag {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.card.purple .tag {
+  background: purple;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.card.orange .tag {
+  background: orange;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.card.green .tag {
+  background: green;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.industry {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(128, 0, 0, 0.1);
+  height: 490px;
+}
+
+.rec25 {
+  padding-left: 90px;
+  padding-top: 85px;
+  width: 410px;
+}
+
+.text-rec25 {
+  padding-left: 120px;
+  padding-top: 65px;
+  padding-right: 490px;
+}
+
+.team {
+  padding: 60px;
+  background: linear-gradient(
+    180deg,
+    rgba(128, 0, 0, 0.011),
+    rgba(128, 0, 0, 0.1)
+  );
+  margin-top: 120px;
+  height: 850px;
+}
+
+.members {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.member {
+  background-color: rgba(128, 0, 0, 0.123);
+  width: 230px;
+  height: 190px;
+  border-radius: 20px;
+}
+
+.member img {
+  width: 80px;
+  margin-top: 20px;
+  /* border-radius: 50%; */
+  /* background: #333; */
+}
+
+.member .name {
+  margin: 10px 0 4px;
+  font-weight: 600;
+}
+
+.member .role {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.lolo {
+  margin-top: 70px;
+  margin-bottom: 80px;
+  margin-left: 40px;
+}
+
+.newsletter {
+  background: #230303;
+  padding: 40px 90px;
+  margin-right: 150px;
+  margin-left: 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 20px;
+}
+
+.stay {
+  padding-right: 150px;
+}
+.newsletter form {
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 20px;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 16px;
+  width: 300px;
+  height: 55px;
+}
+
+.newsletter input {
+  padding: 12px;
+  width: 240px;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  position: relative;
+}
+
+.newsletter button {
+  background: orange;
+  border: none;
+  width: 130px;
+  height: 55px;
+  padding: 12px 20px;
+  border-radius: 16px;
+  font-weight: bold;
+}
+
+footer {
+  background: #0d0d0d;
+  padding: 40px 60px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-col h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin: 5px 0;
+}
+
+.socials a {
+  margin-right: 10px;
+}
+
+footer .logo {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  color: #aaa;
+}
+
+footer .copyright {
+  /* text-align: center; */
+  margin-top: 40px;
+  font-size: 12px;
+}
+.right {
+  padding: 0 0 0 0;
+  border-top: 1px #fff solid;
+  text-align: center;
+}

@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #0d0802;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #0f0f0f;
+}
+
+.navbar .logo {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.navbar nav a {
+  margin-left: 30px;
+  font-weight: 300;
+}
+
+.navbar .btn {
+  background: orange;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+.breadcrumbs span {
+  font-size: 0.9rem;
+  color: rgb(254, 140, 9);
+}
+.map-image {
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem 0;
+}
+
+.xd img {
+  width: 30px;
+}
+.item img {
+  width: 20px;
+  object-fit: contain;
+}
+.contact-info {
+  display: flex;
+  justify-content: center;
+  /* margin-right: 12px; */
+  gap: 90px;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.item {
+  display: flex;
+}
+.contact-form-section {
+  background: #1a120b;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.contact-form {
+  max-width: 600px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact-form .row {
+  display: flex;
+  gap: 50px;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  background: #2d2520;
+  color: #fff;
+}
+
+.newsletter {
+  padding: 3rem 2rem;
+  background: #18100a;
+  text-align: center;
+}
+.newsletter-form {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.newsletter-form input {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  width: 250px;
+}
+
+.btn-orange {
+  background-color: orange;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #0d0d0d;
+  padding: 40px 60px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-col h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin: 5px 0;
+}
+
+.socials a {
+  margin-right: 10px;
+}
+
+footer .logo {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  color: #aaa;
+}
+
+footer .right {
+  margin-top: 40px;
+  font-size: 12px;
+}
+.right {
+  padding: 0 0 0 0;
+  border-top: 1px #fff solid;
+  text-align: center;
+}
